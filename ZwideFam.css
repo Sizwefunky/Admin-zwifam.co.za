@@ -841,6 +841,59 @@ nav ul {
   flex-wrap: wrap;
 }
 
+/* General reset for mobile */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Make sections stack vertically */
+section {
+  padding: 20px;
+  text-align: center;
+}
+
+/* Buttons should be full-width on mobile */
+button {
+  display: block;
+  width: 90%;
+  margin: 10px auto;
+  padding: 12px;
+  font-size: 16px;
+}
+
+/* Responsive typography */
+h1, h2, h3 {
+  font-size: 1.5em;
+  line-height: 1.2;
+}
+
+/* Media query for small screens */
+@media (max-width: 768px) {
+  header, footer {
+    text-align: center;
+    padding: 15px;
+  }
+
+  .content {
+    display: block;
+    width: 100%;
+  }
+
+  /* Ensure text doesn’t overflow */
+  p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  /* Buttons stack neatly */
+  .button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
 
 
 
